@@ -514,6 +514,7 @@ body {
 			.people__benefits {
 				@media (max-width:1257px) {
 					order: -1;
+					// display: none;
 				}
 				@media (max-width:768px) {
 					display: none;
