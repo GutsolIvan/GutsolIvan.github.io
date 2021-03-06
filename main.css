@@ -823,6 +823,7 @@ body .people .people__list .people__benefits {
 @media (max-width: 1257px) {
   body .people .people__list .people__benefits {
     order: -1;
+    margin-top: 33px;
   }
 }
 @media (max-width: 768px) {
