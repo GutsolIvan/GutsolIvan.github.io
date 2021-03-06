@@ -820,6 +820,11 @@ body .people .people__list .people__benefits {
   justify-content: space-between;
   border-radius: 3px;
 }
+@media (max-width: 1257px) {
+  body .people .people__list .people__benefits {
+    display: none;
+  }
+}
 body .people .people__list .people__benefits .people__benefits-number {
   display: flex;
   flex-direction: column;
