@@ -36,7 +36,7 @@ body header .header__wrapper {
   align-items: center;
 }
 body header .menu {
-  width: 333px;
+  width: 375px;
   height: 232px;
   margin: 0 auto;
   background-color: white;
@@ -821,6 +821,11 @@ body .people .people__list .people__benefits {
   border-radius: 3px;
 }
 @media (max-width: 1257px) {
+  body .people .people__list .people__benefits {
+    order: -1;
+  }
+}
+@media (max-width: 768px) {
   body .people .people__list .people__benefits {
     display: none;
   }
